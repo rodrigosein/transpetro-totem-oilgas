@@ -32,8 +32,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        max-width: 1080px;/* Largura máxima ajustada para a resolução horizontal */
-        margin-top: 1200px;
+        max-width: 800px;/* Largura máxima ajustada para a resolução horizontal */
+        margin-top: 980px;
         margin-right: 15px;
         margin-left: 15px;
         margin: 0 auto; /* Centralizar */
@@ -72,7 +72,7 @@
       justify-content: center;
       /*max-width: 450px; ajuste o valor conforme necessário */
       margin: 0 auto; /* centralizar */
-      margin-top: 900px;
+      margin-top: 1200px;
       margin-right: 15px;
       margin-left: 15px;
   }
