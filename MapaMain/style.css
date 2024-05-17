@@ -4,7 +4,7 @@
       padding: 0;
       /*background-image: url('https://github.com/rodrigosein/portifolio/blob/main/assets/Bg-menu_Navalshore_1080x1920.jpg?raw=true'); */
       background-image: url(../img/TELA-MAPA-01.png);
-      background-size: cover;
+      background-size: 100%;
       font-family: "Trebuchet MS";
     }
 
