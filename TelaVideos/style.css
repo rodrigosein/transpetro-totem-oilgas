@@ -20,7 +20,8 @@
     }
 
     .imagem-com-botao {
-      margin-top: 600px;
+      margin-top: 400px;
+      width: 700px;
       margin-left: 20px;
       margin-right: 10px;
       position: relative;
@@ -55,7 +56,10 @@
     @media (max-width: 1080px) {
       .botoes {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+        flex-wrap: nowrap;
         justify-content: center;
         max-width: 1080px;/* Largura máxima ajustada para a resolução horizontal */
         margin-top: 980px;
@@ -65,7 +69,7 @@
         padding: 20px; /* Adicionar um pouco de espaço ao redor dos botões */
     }
     .botaovideo img{
-      height: 200px;
+      height: 290px;
       object-fit: cover;
     }
     .botao img {
@@ -97,11 +101,12 @@
 
     .botoes {
       display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       /*max-width: 450px; ajuste o valor conforme necessário */
       margin: 0 auto; /* centralizar */
-      margin-top: 0px;
+      margin-top: -180px;
       margin-right: 15px;
       margin-left: 15px;
   }
